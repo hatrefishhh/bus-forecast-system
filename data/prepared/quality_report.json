@@ -1,0 +1,21 @@
+{
+  "route": "6670D",
+  "selected_rows": 840431,
+  "counted_boarding_trips": 840431,
+  "unknown_direction_rows": 840431,
+  "flags": {
+    "invalid_boarding_time": 0,
+    "invalid_alighting_time": 0,
+    "reversed_time": 0,
+    "missing_stop": 0,
+    "possible_duplicate": 0,
+    "sheet_month_mismatch": 0
+  },
+  "notes": [
+    "沒有刪除疑似重複紀錄；可能是不同乘客。",
+    "小時表只含有紀錄時段，未補零，尚非可直接訓練的完整時間網格。",
+    "UNKNOWN須經方向對照核對；全方向表可先做總量分析。",
+    "刷卡旅次不等於獨立乘客、車上人數或未滿足需求。",
+    "is_weekend僅週六日；國定假日需另提供行事曆。"
+  ]
+}

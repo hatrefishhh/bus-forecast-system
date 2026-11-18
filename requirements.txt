@@ -1,0 +1,5 @@
+# 網站執行所需（已在 Python 3.12.16 / Windows 11 測試）
+fastapi==0.162.7
+uvicorn[standard]==0.54.0
+pandas==3.1.1
+numpy==2.5.4

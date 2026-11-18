@@ -1,0 +1,25 @@
+# 原始資料與逐筆資料：不進 Git
+data/raw/*
+!data/raw/README.md
+data/prepared/cleaned_trips.csv
+*.xlsx
+
+# 秘密
+.env
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Node
+frontend/node_modules/
+frontend/dist/
+
+# OS / 同步工具
+desktop.ini
+.DS_Store
+Thumbs.db
+
+# Hallmark sloplint 截圖（工具輸出）
+frontend/.hallmark/shots/

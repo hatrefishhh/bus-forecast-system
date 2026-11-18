@@ -1,0 +1,16 @@
+# 只把程式與經確認可展示的彙整檔放進映像
+.git
+.gitignore
+.env
+.pytest_cache
+**/__pycache__
+**/desktop.ini
+frontend/node_modules
+frontend/dist
+docs
+tests
+scripts
+data/raw
+data/prepared/cleaned_trips.csv
+data/prepared/review_rows.csv
+*.xlsx

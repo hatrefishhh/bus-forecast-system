@@ -1,0 +1,1 @@
+﻿route,vehicle,boarding_time,boarding_sequence,boarding_stop,alighting_time,alighting_sequence,alighting_stop,source_row,source_file,source_sheet,invalid_boarding_time,invalid_alighting_time,reversed_time,missing_stop,possible_duplicate,year,sheet_month_mismatch,direction

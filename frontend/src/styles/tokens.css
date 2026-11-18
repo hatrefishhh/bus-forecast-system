@@ -1,0 +1,92 @@
+/* Hallmark tokens · theme: Wayfind (platform colourway) · scope: app · v2.0.0
+ * 所有顏色、字體、間距與動態集中於此；元件 CSS 與圖表只引用這些 token。 */
+:root {
+  color-scheme: light;
+
+  /* Colour: paper, ink, neutrals, one cobalt signal, amber only on ink or under ink text */
+  --color-paper: oklch(95.5% 0.006 250);
+  --color-paper-2: oklch(91% 0.009 250);
+  --color-paper-3: oklch(99.5% 0.005 250);
+  --color-ink: oklch(16% 0.014 262);
+  --color-ink-2: oklch(29% 0.014 262);
+  --color-muted: oklch(47% 0.016 260);
+  --color-rule: oklch(80% 0.011 250);
+  --color-ink-rule: oklch(34% 0.014 262);
+  --color-accent: oklch(51% 0.22 264);
+  --color-accent-hover: oklch(44% 0.2 264);
+  --color-accent-2: oklch(81% 0.16 82);
+  --color-accent-ink: oklch(99.5% 0.003 250);
+  --color-accent-wash: oklch(93% 0.035 264);
+  --color-focus: oklch(51% 0.22 264);
+  --color-focus-on-ink: oklch(81% 0.16 82);
+  --color-error: oklch(50% 0.19 27);
+  --color-error-wash: oklch(95% 0.025 27);
+
+  /* Type: Chivo Mono is the material (the board's face); CJK falls back to a system sans */
+  --font-body: "Chivo Mono", "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", ui-monospace, monospace;
+  --font-display: var(--font-body);
+  --weight-regular: 400;
+  --weight-medium: 500;
+  --weight-heavy: 800;
+
+  /* App type scale, ratio 1.2 from a 16px body */
+  --text-sm: 0.875rem;
+  --text-md: 1rem;
+  --text-lg: 1.2rem;
+  --text-xl: 1.44rem;
+  --text-2xl: 1.728rem;
+  --text-3xl: 2.0736rem;
+  --leading-body: 1.55;
+  --leading-tight: 1.1;
+  --tracking-display: -0.02em;
+
+  /* Space */
+  --space-3xs: 2px;
+  --space-2xs: 4px;
+  --space-xs: 8px;
+  --space-sm: 12px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --space-xl: 40px;
+  --space-2xl: 64px;
+  --space-3xl: 96px;
+  --space-4xl: 144px;
+
+  /* Canvas */
+  --container: 1440px;
+  --gutter: 40px;
+  --gap-columns: 24px;
+
+  /* Surfaces */
+  --radius-card: 0;
+  --radius-pill: 999px;
+  --rule-hair: 1px;
+  --rule-bar: 2px;
+  --control-height: 40px;
+
+  /* Motion: departure-board stiff */
+  --dur-micro: 120ms;
+  --dur-short: 220ms;
+  --ease-out: cubic-bezier(0.2, 0.7, 0.2, 1);
+
+  /* Z levels */
+  --z-base: 1;
+  --z-raised: 10;
+  --z-dropdown: 100;
+  --z-sticky: 200;
+  --z-toast: 500;
+  --z-tooltip: 600;
+}
+
+@media (max-width: 60rem) {
+  :root {
+    --gutter: 16px;
+    --gap-columns: 16px;
+  }
+}
+
+@media (pointer: coarse) {
+  :root {
+    --control-height: 44px;
+  }
+}
