@@ -23,3 +23,5 @@ Thumbs.db
 
 # Hallmark sloplint 截圖（工具輸出）
 frontend/.hallmark/shots/
+
+bus-forecast-system/
